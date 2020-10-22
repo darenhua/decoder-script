@@ -1,0 +1,11 @@
+Each character (including space) has been coded into binary numbers using ASCII code.
+
+The ASCII-coded binary numbers have been arranged in raster scan order (Figure 1) to form an 8 x 16binary matrix (Figure 2).
+
+Each ASCII-coded binary number in odd rows (1st, 3rd, 5th and 7th) has been added a number equivalent to its row number.
+
+Each ASCII-coded binary number in even rows (0th, 2nd, 4th and 6th) has been subtracted a number equivalent to its row number.
+
+The 8th column of the 8 x 16 matrix has been cut and inserted into the left side of the 0th column.
+
+The newly formed binary number (cascading two numbers into one) in each row has been converted to a hexadecimal number.
